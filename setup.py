@@ -30,7 +30,7 @@ setup(
     author_email="eran@sandler.co.il",
     url="http://github.com/erans/fabric-gce-tools",
     packages=find_packages(),
-    install_requires=["fabric"],
+    install_requires=["Fabric3"],
 
     extras_require={
         "test": ["nose", "coverage", "mock"]
@@ -42,7 +42,7 @@ setup(
         "Intended Audience :: Developers",
         "Intended Audience :: System Administrators",
         "Operating System :: OS Independent",
-        "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3.7",
         "Topic :: System :: Clustering",
         "Topic :: System :: Systems Administration",
         "Topic :: Utilities"
