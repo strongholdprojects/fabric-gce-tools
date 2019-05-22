@@ -50,7 +50,7 @@ def _check_gcloud():
     _gcloud_exists = (gcloud_version != None)
 
     if _gcloud_exists:
-        _gcloud_version = int(gcloud_version.split("\n")[0].split(" ")[-1].split(".")[0])
+        _gcloud_version = int(gcloud_version.decode().split("\n")[0].split(" ")[-1].split(".")[0])
 
 def _get_zone_flag_name():
     global _gcloud_version
